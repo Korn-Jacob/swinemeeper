@@ -1,0 +1,1 @@
+These are images not used in the game, but in the main README.

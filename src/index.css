@@ -1,0 +1,52 @@
+* {
+  --tile-size: 25px;
+  --board-size: 25;
+  font-family: monospace;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.board {
+  display: grid;
+  grid-template-rows: repeat(--board-size, var(--tile-size));
+  grid-template-columns: repeat(--board-size, var(--tile-size));
+  gap: 0px;
+}
+
+.tile {
+  width: var(--tile-size);
+  height: var(--tile-size);
+}
+
+.text {
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: bolder;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+}
+
+p {
+  margin: 5px;
+}

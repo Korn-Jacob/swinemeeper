@@ -1,3 +1,4 @@
+[Deploy link](https://cosmic-choux-0a320a.netlify.app)
 # Swinemeeper: A game about meeping the swine!
 In swinemeeper, your goal is simple: meep (click) the swine in as fewest meeps as possible!\
 Swinemeeper takes place on a 25x25 board of tiles, and only one of those tiles houses the swine.

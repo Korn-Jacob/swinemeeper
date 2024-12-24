@@ -44,7 +44,6 @@ export default function Main() {
     const boardSizeRef = useRef<HTMLInputElement>(null);
     const swineCountRef = useRef<HTMLInputElement>(null);
 
-    console.log(board.swines)
     const reinitializeBoard = () => {
         setBoard(makeBoard(boardSize, swineCount));
     }

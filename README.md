@@ -4,7 +4,7 @@ In swinemeeper, your goal is simple: meep (click) the swine in as fewest meeps a
 Swinemeeper takes place on a 25x25 board of tiles, and only one of those tiles houses the swine.
 
 ## How to meep the swine:
-Each time you click on a tile, you will **meep** it. If that tile has a swine, you win! Otherwise, the tile will become **meeped** and it will display a number corresponding to the distance of the shortest path from that point to the swine, with diagonal movement allowed.\
+Each time you click on a tile, you will **meep** it. If that tile has a swine, you win! Otherwise, the tile will become **meeped** and it will display a number corresponding to the distance of the shortest path from that point to the nearest swine, with diagonal movement allowed.\
 ![An example of distance](./public/images/examples/distance.png)\
 Here is an example of what distance would look like.\
 \
